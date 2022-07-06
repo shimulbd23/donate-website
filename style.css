@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-image: url(./images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header-title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+}
+
+.header-title-heading {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.container-donate {
+    max-width: 824px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.donate-amount {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.amount {
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.amount-highlight {
+    width: 135px;
+    height: 123px;
+    background-color: #FFEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.donate-amount-section input {
+    border: 0;
+    border-bottom: 3px solid #FFEEEE;
+    margin: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.donate-button-section {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-item {
+    margin: 30px auto;
+    width: 1130px;
+    display: flex;
+    gap: 20px;
+}
+
+.size {
+    width: 360px;
+    height: 270px;
+    padding: 40px 20px 20px 20px;
+}
+
+.food {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.shelter {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.education {
+    background: #FFF4D6;
+}
+
+.donate-item-title {
+    margin: 15px 0px;
+}
+
+.donate-item-description {
+    font-size: 14px;
+    color: #707070
+}
