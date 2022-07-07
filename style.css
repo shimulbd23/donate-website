@@ -196,10 +196,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .footer h3 {
     color: white;
+
 
 
 }
